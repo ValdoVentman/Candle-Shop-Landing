@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+body {
+    
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+
+
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url("../img/candle1.webp");
+    height: 75vh;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image_link a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #a0623977;
+    
+    padding: 2rem;
+    color: #c5b25d;
+    border: 2px solid #a06239;
+    transition: all 1.2s ease-in-out;
+}
+
+.intro-image_link a:hover {
+    transform: scale(1.5);
+}
+.intro-text {
+    height: 250px;
+    background-color: #5e3e2a;
+    color: #ebcfb3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-top: -5rem;
+    clip-path: polygon(51% 21%, 100% 0, 100% 100%, 76% 100%, 0 100%, 0 0);
+}
+
+
+.intro-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    animation-name: moveInRight;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes moveInRight {
+    0% {transform: translateX(1000px);
+    opacity: 0;}
+    80% {
+        transform: translateX(-50px);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.packaging-image {
+    background-attachment: fixed;
+    height: 600px;
+    background-image: url("../img/packaging1.webp");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image_link a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #ac9982bd;
+    padding: 2rem;
+    color: #dfbd50;
+    border: 2px solid #a56415fb;
+    transition: all 1.2s ease-in-out;
+}
+.packaging-image_link a:hover {
+    transform: scale(1.5);
+}
+
+.packaging-text {
+    height: 250px;
+    background-color: #462205;
+    color: #999581;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -5.4rem;
+    clip-path: polygon(49% 0, 100% 0, 100% 100%, 20% 86%, 0 100%, 0 0);
+    }
+
+.packaging-text_textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    animation-name: moveInLeft;
+ animation-duration: 4s;
+ animation-timing-function: ease-in-out;
+}
+
+@keyframes moveInLeft {
+    0% {transform: translateX(-1000px);
+    opacity: 0;}
+    80% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    height: 550px;
+    background-image: url("../img/candle3.webp");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image_link a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #767b7a80;
+    padding: 2rem;
+    color: #cae6e0;
+    border: 2px solid #767b7a;
+    transition: all 1.2s ease-in-out;
+}
+.tutorials-image_link a:hover {
+    transform: scale(1.5);
+}
+
+.btn-container {
+    text-align: center;
+}
+.btn {
+    font-size: 3rem;
+    color: rgb(86, 87, 46);
+    display: inline-block;
+    border-bottom: 0.2rem solid rgb(177, 61, 61);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    padding: 1rem;
+    transition: all 0.3s;
+
+}
+
+.btn:hover {
+    background-color: #c756d198;
+    box-shadow:  0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+
+}
+
+.btn:active{
+    box-shadow:  0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(5px);
+}
+
+
+.footer {
+    height: 200px;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(4, 70, 34);
+    padding: 2rem;
+    background-color: #793e6f;
+    
+   }
+  
+   .footer ul li {
+      display: inline-block;
+      margin: 1rem;
+  
+   }
+   .footer ul li a {
+      text-decoration: none;
+      color: rgb(192, 80, 177);
+      
+   }
+  
+  .footer ul li:hover, .footer ul li a:hover {
+  
+      color: #6aaf1b;
+      transform: scale(1.2);
+      
+   }
+  
